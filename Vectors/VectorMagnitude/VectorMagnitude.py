@@ -6,9 +6,9 @@ import math
 print("This program will take vector")
 print("components and calculate magnitude")
 
-Ux = int(input("Ux: "))
-Uy = int(input("Uy: "))
-Uz = int(input("Uz: "))
+Ux = float(input("Ux: "))
+Uy = float(input("Uy: "))
+Uz = float(input("Uz: "))
 
 magnitude = (math.sqrt(math.pow(Ux,2) + math.pow(Uy,2) + math.pow(Uz,2)))
 
